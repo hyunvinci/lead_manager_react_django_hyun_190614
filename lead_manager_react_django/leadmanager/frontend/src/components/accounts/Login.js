@@ -30,7 +30,7 @@ export class Login extends Component {
     return (
       <div className="col-md-6 m-auto">
         <div className="card card-body mt-5">
-          <h2 className="text-center">Login</h2>
+          <h2 className="text-center">로그인</h2>
           <form onSubmit={this.onSubmit}>
             <div className="form-group">
               <label>Username</label>
@@ -60,7 +60,7 @@ export class Login extends Component {
               </button>
             </div>
             <p>
-              Don't have an account? <Link to="/register">Register</Link>
+              계정이 없으신가요? <Link to="/register">계정생성</Link>
             </p>
           </form>
         </div>
